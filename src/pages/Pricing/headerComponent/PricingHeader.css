@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    font-size: 30px;
+
+    width: 50%;
+    line-height: 1.1;
+    margin-bottom: 70px;
+}
+
+
+
+.header-span {
+    color: var(--color-text-link);
+    font-style: italic;
+    font-weight: 400;
+}
+
+header p {
+    font-weight: 400;
+    color: var(--color-text-secondary);
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: "dm sans", sans-serif;
+}
+
+header p span {
+    font-style: italic;
+    font-weight: 700;
+}
