@@ -1,6 +1,4 @@
-import React from 'react';
 import styles from './TeamSection.module.css';
-
 // يمكنك استبدال هذه الصور بصور حقيقية أو استيرادها من مجلد الـ images لديك
 import member1 from '../images/member1.png';
 import member2 from '../images/member2.png';

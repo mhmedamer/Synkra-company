@@ -1,5 +1,4 @@
 // StatsSection.jsx
-import React from 'react';
 import styles from './StatsSection.module.css';
 
 export default function StatsSection() {

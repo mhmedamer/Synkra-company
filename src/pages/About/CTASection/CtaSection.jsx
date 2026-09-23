@@ -1,5 +1,4 @@
 // CtaSection.jsx
-import React from 'react';
 import styles from './CtaSection.module.css';
 
 export default function CtaSection() {

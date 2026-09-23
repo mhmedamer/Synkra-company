@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from './PrinciplesSection.module.css';
 
 const PrinciplesSection = () => {
