@@ -112,7 +112,7 @@ function annuallyCard() {
 export default function PriceDetails() {
   let [isYear, setIsYear] = useState(false);
   return (
-    <div>
+    <div style={{ marginBottom: '100px' }}>
       <div className="price-select">
         <span className={!isYear ? 'active-text' : ''}> Monthly</span>
 
@@ -129,7 +129,10 @@ export default function PriceDetails() {
         <span className="save"> SAVE 30 %</span>
       </div>
       {/* to display anually cards or monthy cards */}
-      <div style={{ display: 'flex', marginTop: '20px' }}>
+      <div
+        className="cards-container"
+        style={{ display: 'flex', marginTop: '20px' }}
+      >
         {!isYear ? monthlyCard() : annuallyCard()}
       </div>
     </div>

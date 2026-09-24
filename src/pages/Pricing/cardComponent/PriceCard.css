@@ -124,3 +124,15 @@
     border-radius: 9999px;
     padding: 10px 20px;
 }
+
+@media (max-width: 768px) {
+    .price-card {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    .price-active {
+        width: 80%;
+        margin: 20px auto;
+    }
+}

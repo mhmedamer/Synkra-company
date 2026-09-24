@@ -27,3 +27,14 @@ header p span {
     font-style: italic;
     font-weight: 700;
 }
+
+@media(max-width:769px) {
+    header {
+        text-align: left;
+        font-weight: 700;
+        width: 90%;
+        margin-top: 20px;
+    }
+
+
+}
