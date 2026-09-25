@@ -22,7 +22,7 @@ export default function CtaSection() {
           </div>
 
           <p className={styles.ctaSubtext}>
-            *Ship your first live playbook in 10 minutes. No credit card, no setup call required.
+            <span className={styles.star}>*</span>Ship your first live playbook in 10 minutes. No credit card, no setup call required.
           </p>
 
           <div className={styles.ctaFooter}>
