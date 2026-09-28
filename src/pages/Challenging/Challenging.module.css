@@ -275,16 +275,18 @@
 
 .ctaOverlay {
   inset: 0;
-  width: 100%;
+  width: 30%;
   height: 100%;
   opacity: .65;
+  left: -40px;
 }
 
 .ctaEllipse {
-  right: -60px;
-  top: -35px;
-  width: 320px;
+  left: 41px;
+  top: 33%;
+  width: 158px;
   opacity: .5;
+ 
 }
 
 .callToAction h2,

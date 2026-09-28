@@ -3,7 +3,7 @@
 *::after {
   box-sizing: border-box;
 }
-:root {
+:root { 
   /* ===== Fonts ===== */
   --font-heading: 'Newsreader', serif;
   --font-body: 'DM Sans', sans-serif;    

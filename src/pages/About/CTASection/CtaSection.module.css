@@ -203,7 +203,7 @@
 
 @media (max-width: 440px) {
   .ctaCard {
-    width: 80%;
+    width: 88%;
     height: 695px;
     border-radius: 12px;
     padding: 4rem ;
@@ -230,5 +230,12 @@
   .authorTitle {
    font-size: 10px;
    color: var(--color-text-cta);
+  }
+}
+
+@media (max-width: 430px) {
+  .ctaCard {
+    width: 90%;
+    margin-top: -20px;
   }
 }

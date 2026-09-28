@@ -2,6 +2,7 @@ import Questions from '../../components/questionsComponent/Questions';
 import Heroimg from '../../assets/Home/hero-card.svg';
 import styles from './Home.module.css';
 import FeatureComponent from '../../components/FeatureComponent/FeatureComponent';
+import  Iconstar from '../../assets/Home/Iconstar.svg';
 
 // Partner / Client brand logos
 const companies = ['VOLT', 'SPHERE', 'LUMINA', 'ORBIT', 'NEXUS'];
@@ -32,10 +33,11 @@ const stats = [
   */
 function HeroSection() {
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} >
       <div className={styles.heroText}>
-        <span className={styles.eyebrow}>
-          BUILT FOR MODERN OPS TEAMS
+         <img src={Iconstar}></img> 
+        <span className={styles.eyebrow} >
+        BUILT FOR MODERN OPS TEAMS
         </span>
 
         <h1>
@@ -53,9 +55,32 @@ function HeroSection() {
         </p>
 
         <div className={styles.heroButtons}>
-          <button className={styles.primaryButton}>
-            Get early access
-          </button>
+          <button 
+  className={styles.primaryButton}
+  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
+>
+  <span>Get early access</span>
+  <svg 
+    width="18" 
+    height="18" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    xmlns="http://www.w3.org/2000/svg"
+    style={{ display: 'block', flexShrink: 0 }}
+  >
+  
+    <rect x="2.5" y="2.5" width="19" height="19" rx="4.5" stroke="currentColor" strokeWidth="1.6" fill="rgba(255, 255, 255, 0.12)" />
+    
+
+    <path 
+      d="M15 7V13C15 14.1046 14.1046 15 13 15H8M8 15L10.5 12.5M8 15L10.5 17.5" 
+      stroke="currentColor" 
+      strokeWidth="1.8" 
+      strokeLinecap="round" 
+      strokeLinejoin="round" 
+    />
+  </svg>
+</button>
 
           <button className={styles.secondaryButton}>
             Watch Synkra in action
@@ -67,11 +92,12 @@ function HeroSection() {
         </small>
       </div>
 
-      <div className={styles.heroImage}>
+      <div className={styles.heroImage} style={{position: "relative"}}>
         <img
-          src={Heroimg}
+          src={Heroimg} 
           alt="Synkra workflow dashboard preview"
         />
+        
       </div>
     </section>
   );
@@ -83,7 +109,8 @@ function HeroSection() {
   */
 function TrustedSection() {
   return (
-    <section className={styles.trusted}>
+  <section className={styles.trusted}>
+
       <p>TRUSTED BY GLOBAL VISIONARIES</p>
 
       <div className={styles.companyList}>
@@ -130,9 +157,27 @@ function StatsSection() {
           Create an Account
         </button>
 
-        <button className={styles.statsSecondaryButton}>
-          Talk to our team instead&nbsp; ◉
-        </button>
+   <button 
+  className={styles.statsSecondaryButton}
+  style={{ display: 'inline-flex', alignItems: 'center', justifyContent: 'center', gap: '8px' }}
+>
+  Talk to our team instead 
+  <svg 
+    width="18" 
+    height="18" 
+    viewBox="0 0 24 24" 
+    fill="none" 
+    stroke="currentColor" 
+    strokeWidth="2" 
+    strokeLinecap="round" 
+    strokeLinejoin="round"
+    style={{ flexShrink: 0 }}
+  >
+    <path d="M3 18v-6a9 9 0 0 1 18 0v6" />
+    <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z" />
+  </svg>
+</button>
+        
       </div>
 
       <p className={styles.statsNote}>

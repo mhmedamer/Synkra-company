@@ -1,10 +1,10 @@
 import styles from './Challenging.module.css';
-import Ellipse26 from '../../assets/challenging/Ellipse26.svg';
+import Ellipse26 from '../../assets/challenging/Ellipse24.svg';
 import Check from '../../assets/challenging/Check.svg';
 import Bug from '../../assets/challenging/Bug.svg';
 import Rocket from '../../assets/challenging/Rocket.svg';
 import Lightning from '../../assets/challenging/Lightning.svg';
-import Improv from '../../assets/challenging/Improv.svg';
+import Improv from '../../assets/challenging/improv.svg';
 import IconDesign from '../../assets/challenging/IconDesign.svg';   
 import IconDolars from '../../assets/challenging/IconDolars.svg';   
 import IconKey from '../../assets/challenging/IconKey.svg';   
@@ -155,7 +155,12 @@ function CallToAction() {
       <h2>Your team is spending hours on work<br />that <em>Synkra</em> can run in seconds</h2>
       <div className={styles.ctaButtons}>
         <a className={styles.primaryButton} href="#signup">Create an Account</a>
-        <a className={styles.secondaryButton} href="#contact">Talk to our team instead <span>♧</span></a>
+        <a className={styles.secondaryButton} href="#contact">Talk to our team instead 
+              <svg  viewBox="0 0 24 24" width="16" height="16" stroke="currentColor" strokeWidth="2" fill="none">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+              </svg>     
+          </a>
       </div>
       <p className={styles.ctaNote}>
         <span className={styles.ctaStar}>*</span>Ship your first live playbook in 10 minutes. No credit card, no setup call required.
